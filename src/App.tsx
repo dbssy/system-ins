@@ -1,7 +1,12 @@
+import { Toaster } from 'react-hot-toast';
+
+import { Router } from './Router';
+
 export function App() {
   return (
-    <div>
-      <h1>Olá, Instrutores!</h1>
-    </div>
+    <>
+      <Toaster />
+      <Router />
+    </>
   );
 }

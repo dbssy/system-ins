@@ -57,6 +57,7 @@
       }
     ],
     "prettier/prettier": "error",
+    "react/button-has-type": "off",
     "react/jsx-props-no-spreading": "off",
     "react/jsx-no-bind": "off",
     "react/jsx-filename-extension": [
@@ -68,6 +69,7 @@
       }
     ],
     "react/react-in-jsx-scope": "off",
+    "react/require-default-props": "off",
     "@typescript-eslint/naming-convention": [
       "error",
       {
