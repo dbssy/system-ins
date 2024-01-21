@@ -50,6 +50,7 @@
         "newlines-between": "always"
       }
     ],
+    "no-undef": "off",
     "no-empty": [
       "error",
       {
@@ -70,6 +71,7 @@
     ],
     "react/react-in-jsx-scope": "off",
     "react/require-default-props": "off",
+    "react/self-closing-comp": "off",
     "@typescript-eslint/naming-convention": [
       "error",
       {
