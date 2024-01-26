@@ -9,9 +9,9 @@ export function UserMenu() {
         <div className="flex items-center gap-x-2">
           <div className="bg-avatar-image bg-[length:220px_220px] bg-center bg-no-repeat border-blue-400 border-2 rounded-full w-16 h-16 overflow-hidden">
             <img
-              src="https://www.habbo.com.br/habbo-imaging/avatarimage?user=.Wire.-&action=std&direction=3&head_direction=3&gesture=sml&size=l"
+              src="http://www.habbo.com.br/habbo-imaging/avatarimage?&user=.Wire.-&action=std&direction=4&head_direction=3&img_format=png&gesture=sml&headonly=1&size=l"
               alt="Avatar do Usuário"
-              className="my-[-20%]"
+              className="my-[-10%]"
             />
           </div>
 

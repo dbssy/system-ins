@@ -7,11 +7,9 @@ export function Login() {
   return (
     <>
       <header className="flex flex-col items-center gap-2 text-center">
-        <h1 className="text-gray-900 text-2xl font-bold tracking-[-1px]">
-          Entre em sua conta
-        </h1>
+        <h1 className="text-gray-900 text-2xl font-bold">Entre em sua conta</h1>
 
-        <p className="space-x-2 tracking-[-0.5px]">
+        <p className="space-x-2">
           <span className="text gray-700">Novo por aqui?</span>
 
           <Link
