@@ -21,7 +21,7 @@ export function Home() {
 
         <div className="w-full xl:w-1/3 flex flex-col gap-8">
           <UserProfile
-            nickname=".Wire.-"
+            nick=".Wire.-"
             role="Capacitador"
             goal="3"
             entryDate="29 Out 2023"

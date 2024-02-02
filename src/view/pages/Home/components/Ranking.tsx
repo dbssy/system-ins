@@ -6,7 +6,7 @@ interface IRankingProps {
   ranking: {
     type: string;
     members: {
-      nickname: string;
+      nick: string;
       position: string;
       points: string;
     }[];
@@ -36,14 +36,14 @@ export function Ranking({ ranking }: IRankingProps) {
           >
             <div className="h-[85px]">
               <img
-                src={`https://www.habbo.com.br/habbo-imaging/avatarimage?user=${member.nickname}&action=std&direction=3&head_direction=3&gesture=sml&size=l`}
+                src={`https://www.habbo.com.br/habbo-imaging/avatarimage?user=${member.nick}&action=std&direction=3&head_direction=3&gesture=sml&size=l`}
                 alt="Avatar do Usuário"
                 className="w-16"
               />
             </div>
 
             <div className="text-gray-900 flex flex-col">
-              <strong>{member.nickname}</strong>
+              <strong>{member.nick}</strong>
               <span>{member.points} pontos</span>
             </div>
           </div>

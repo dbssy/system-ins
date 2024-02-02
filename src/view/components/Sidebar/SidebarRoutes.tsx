@@ -20,17 +20,17 @@ const mainRoutes = [
   {
     icon: MessageCircleWarning,
     label: 'Tutoriais e Apostilas',
-    href: '/tips',
+    href: '/tutoriais',
   },
   {
     icon: Users,
     label: 'Membros',
-    href: '/members',
+    href: '/membros',
   },
   {
     icon: SquarePen,
     label: 'Requerimentos',
-    href: '/requests',
+    href: '/requerimentos',
   },
 ];
 
@@ -38,12 +38,12 @@ const lessonsRoutes = [
   {
     icon: Presentation,
     label: 'Script de Aulas',
-    href: '/lessons',
+    href: '/aulas',
   },
   {
     icon: PieChart,
     label: 'Desempenhos',
-    href: '/performances',
+    href: '/desempenhos',
   },
 ];
 
@@ -51,12 +51,12 @@ const legalRoutes = [
   {
     icon: LibrarySquare,
     label: 'Regimento Interno',
-    href: '/regulations',
+    href: '/regimento-interno',
   },
   {
     icon: Gavel,
     label: 'Código Penal',
-    href: '/penalties',
+    href: '/codigo-penal',
   },
 ];
 

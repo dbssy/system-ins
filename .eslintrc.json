@@ -24,6 +24,7 @@
   },
   "rules": {
     "jsx-a11y/aria-role": "off",
+    "jsx-a11y/label-has-associated-control": "off",
     "import/prefer-default-export": "off",
     "import/extensions": [
       "error",
